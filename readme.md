@@ -72,4 +72,5 @@ python llama2_model_pred.py
 
 This project is open-source and available under the MIT License.
 
-![GPT-2 First Order Prediction](gpt2_fo_page1.png)
+![GPT-2 First Order Prediction](https://github.com/Enkefalos-Technologies/next-token-prediction/blob/main/gpt2_fo_page1.jpg)
+
