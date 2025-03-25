@@ -51,7 +51,6 @@ To set up the project, follow these steps:
 
 # Clone the repository
 git clone https://github.com/Enkefalos-Technologies/next-token-prediction.git
-cd your-repo-name
 
 # Install dependencies
 pip install -r requirements.txt
