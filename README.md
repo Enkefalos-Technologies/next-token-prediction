@@ -10,7 +10,7 @@ This project explores the **Theory of Mind (ToM)** through NLP models by predict
 
 ### 🔹 Data
 - `Original_stories.csv` → Contains 10 original stories from the *Explore Theory of Mind* paper.
-- `infilled_stories.csv` → Infills generated using `infill_generator_usinggpt4.py`.
+- `infilled_stories.csv` → Infills generated using `infill_generator_using_gpt4.py`.
 
 ### 🔹 Code
 - `python infill_generator_usinggpt4.py` → Run the script to generate infilled stories.
