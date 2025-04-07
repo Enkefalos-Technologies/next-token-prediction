@@ -1,73 +1,29 @@
-## Exploring Next Token Prediction in Theory of Mind (ToM) Task: A Comparative Experiment with GPT-2 and Llama-2 Models
+# Exploring Next Token Prediction in Theory of Mind (ToM) Task: A Comparative Experiment with GPT-2 and LLaMA-2 Models
 
-### Project Overview
+## 🧠 Project Overview
 
-This project explores the Theory of Mind using NLP models by predicting next tokens and analyzing how different models perform on first-order, zero-order, and second-order questions.
+This project explores the **Theory of Mind (ToM)** through NLP models by predicting next tokens and analyzing how different models—**GPT-2** and **LLaMA-2**—perform on **first-order**, **zero-order**, and **second-order** questions.
 
-### Project Structure
+---
 
-#### Data
+## 📁 Project Structure
 
-`Original_stories.csv` → Contains 10 original stories from the Explore Theory of Mind paper.
+### 🔹 Data
+- `Original_stories.csv` → Contains 10 original stories from the *Explore Theory of Mind* paper.
+- `infilled_stories.csv` → Infills generated using `infill_generator_usinggpt4.py`.
 
-infilled_stories.csv → Infills generated using infill_generator_usinggpt4.py.
+### 🔹 Code
+- `infill_generator_usinggpt4.py` → Script to generate infilled stories.
+- `gpt2_model_pred.py` → Predicts next tokens using GPT-2 and plots graphs.
+- `llama2_model_pred.py` → Predicts next tokens using LLaMA-2 and plots graphs.
 
-Code
+---
 
-infill_generator_usinggpt4.py → Script to generate infilled stories.
+## 🧰 Requirements
 
-gpt2_model_pred.py → Predicts next tokens using GPT-2 and plots graphs.
+- `requirements.txt` → Contains all the necessary dependencies.
 
-llama2_model_pred.py → Predicts next tokens using LLaMA-2 and plots graphs.
+Install dependencies using:
 
-🔹 Requirements
-
-requirements.txt → Contains necessary dependencies.
-
-🔹 Results (Plotted Graphs)
-
-📊 GPT-2 Model Predictions:
-
-gpt2_fo_5march.pdf → First-order question results.
-
-gpt2_so_5march.pdf → Second-order question results.
-
-gpt2_zo_5march.pdf → Zero-order question results.
-
-📊 LLaMA-2 Model Predictions:
-
-llama2_fo_5march.pdf → First-order question results.
-
-llama2_so_5march.pdf → Second-order question results.
-
-llama2_zo_5march.pdf → Zero-order question results.
-
-🛠 Installation
-
-To set up the project, follow these steps:
-
-# Clone the repository
-git clone https://github.com/Enkefalos-Technologies/next-token-prediction.git
-
-# Install dependencies
+```bash
 pip install -r requirements.txt
-
-🚀 Usage
-
-Run the scripts in the following order:
-
-# Generate infilled stories
-python infill_generator_usinggpt4.py or use the  infilled_stories.csv file
-
-# Run GPT-2 model predictions
-python gpt2_model_pred.py
-
-# Run LLaMA-2 model predictions
-python llama2_model_pred.py
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-![GPT-2 First Order Prediction](https://github.com/Enkefalos-Technologies/next-token-prediction/blob/main/gpt2_fo_page1.jpg)
-
