@@ -1,21 +1,18 @@
-🚀 Exploring Next Token Prediction in
-Theory of Mind (ToM) Task: A
-Comparative Experiment with GPT-2 and
-Llama-2 Models
+## Exploring Next Token Prediction in Theory of Mind (ToM) Task: A Comparative Experiment with GPT-2 and Llama-2 Models
 
-📌 Project Overview
+### Project Overview
 
 This project explores the Theory of Mind using NLP models by predicting next tokens and analyzing how different models perform on first-order, zero-order, and second-order questions.
 
-📂 Project Structure
+### Project Structure
 
-🔹 Data
+#### Data
 
-Original_stories.csv → Contains 10 original stories from the Explore Theory of Mind paper.
+`Original_stories.csv` → Contains 10 original stories from the Explore Theory of Mind paper.
 
 infilled_stories.csv → Infills generated using infill_generator_usinggpt4.py.
 
-🔹 Code
+Code
 
 infill_generator_usinggpt4.py → Script to generate infilled stories.
 
