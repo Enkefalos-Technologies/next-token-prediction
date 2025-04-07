@@ -13,9 +13,9 @@ This project explores the **Theory of Mind (ToM)** through NLP models by predict
 - `infilled_stories.csv` → Infills generated using `infill_generator_usinggpt4.py`.
 
 ### 🔹 Code
-- `infill_generator_usinggpt4.py` → Script to generate infilled stories.
-- `gpt2_model_pred.py` → Predicts next tokens using GPT-2 and plots graphs.
-- `llama2_model_pred.py` → Predicts next tokens using LLaMA-2 and plots graphs.
+- `python infill_generator_usinggpt4.py` → Run the script file to generate infilled stories.
+- `python gpt2_model_pred.py` → Run this script file to predicts next tokens using GPT-2 and plots graphs.
+- `python llama2_model_pred.py` → Run this script file to predicts next tokens using LLaMA-2 and plots graphs.
 
 ---
 
@@ -26,4 +26,4 @@ This project explores the **Theory of Mind (ToM)** through NLP models by predict
 Install dependencies using:
 
 ```bash
-pip install -r requirements.txt
+!pip install -r requirements.txt
